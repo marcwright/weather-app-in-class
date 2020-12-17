@@ -3,7 +3,8 @@ import "./styles.css";
 
 class About extends Component {
   state = {
-    zipcode: ""
+    zipcode: "",
+    firstName: "Marc"
   };
 
   handleChange = (event) => {
